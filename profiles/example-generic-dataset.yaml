@@ -1,0 +1,28 @@
+# Illustrative profile only; review and approve before use as a release gate.
+profile_id: example-generic-dataset
+version: 0.1-draft
+dataset_id: REPLACE_ME
+source:
+  uri: REPLACE_ME
+  format: REPLACE_ME
+publication:
+  uri: REPLACE_ME
+  channel: download_or_api
+spatial:
+  expected_crs: null
+  expected_extent: null
+  expected_geometry_type: null
+quality:
+  missing_values_allowed: null
+  comparison_method: null
+  absolute_tolerance: null
+  relative_tolerance: null
+checks:
+  source_integrity: true
+  spatial_metadata: true
+  transformation_comparison: true
+  published_output: true
+  independent_consumption: true
+release:
+  approved_by: null
+  blocking_check_ids: []
